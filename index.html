@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物品分類網站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>物品分類網站</h1>
+    <div class="input-container">
+        <input type="text" id="itemInput" placeholder="輸入物品名稱">
+        <button onclick="addItem()">添加物品</button>
+    </div>
+    <div class="category-container">
+        <h2>分類</h2>
+        <select id="categorySelect">
+            <option value="all">全部</option>
+            <option value="category1">分類1</option>
+            <option value="category2">分類2</option>
+        </select>
+    </div>
+    <ul id="itemList"></ul>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
